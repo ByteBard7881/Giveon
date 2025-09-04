@@ -26,10 +26,11 @@ The `blockchain/` folder contains the donation smart contract written in Solidit
 ### Getting Started
 
 ```sh
+npm install --global yarn
 cd blockchain
-npm install
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network localhost
+yarn install
+yarn hardhat compile
+yarn hardhat run scripts/deploy.js --network localhost
 ```
 
 > Optional: Deploy to Sepolia testnet using your wallet and RPC URL.
@@ -150,12 +151,12 @@ web-app/
 
 | Folder     | Command                                     | Description                     |
 | ---------- | ------------------------------------------- | ------------------------------- |
-| blockchain | `npx hardhat compile`                       | Compile smart contracts         |
-| blockchain | `npx hardhat run scripts/deploy.js`         | Deploy contract (local/testnet) |
+| blockchain | `yarn hardhat compile`                       | Compile smart contracts         |
+| blockchain | `yarn hardhat run scripts/deploy.js --network localhost`         | Deploy contract (local/testnet) |
 | server     | `javac -cp postgresql-42.7.6.jar Main.java` | Compile Java server             |
 | server     | `java -cp .:postgresql-42.7.6.jar Main`     | Run backend server              |
 | web-app    | `npm install`                               | Install frontend dependencies   |
-| web-app    | `npm start`                                 | Run frontend server             |
+| web-app    | `npm run dev`                                 | Run frontend server             |
 
 ---
 

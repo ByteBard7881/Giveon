@@ -28,7 +28,7 @@ npm install
 3. Start the development server:
 
 ```sh
-npm start
+npm run dev
 ```
 
 > The app will run at `http://localhost:3000` by default.
@@ -92,7 +92,7 @@ web-app/
 | Command         | Description                    |
 | --------------- | ------------------------------ |
 | `npm install`   | Install project dependencies   |
-| `npm start`     | Start the development server   |
+| `npm run dev`   | Start the development server   |
 | `npm run build` | Build the production-ready app |
 | `npm test`      | Run tests (if implemented)     |
 
