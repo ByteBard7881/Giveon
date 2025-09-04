@@ -81,7 +81,7 @@ Table: `donations`
 | Column            | Type |
 | ----------------- | ---- |
 | first\_name       | TEXT |
-| last\_kase        | TEXT |
+| last\_name        | TEXT |
 | email             | TEXT |
 | phone             | TEXT |
 | amount\_eth       | TEXT |

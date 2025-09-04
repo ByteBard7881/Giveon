@@ -91,7 +91,7 @@ java -cp .:postgresql-42.7.6.jar Main
 | Column            | Type |
 | ----------------- | ---- |
 | first\_name       | TEXT |
-| last\_kase        | TEXT |
+| last\_name        | TEXT |
 | email             | TEXT |
 | phone             | TEXT |
 | amount\_eth       | TEXT |
