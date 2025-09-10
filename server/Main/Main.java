@@ -8,8 +8,6 @@ import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 
-// Importing modules
-
 public class Main {
 
   public static void main(String[] args) throws Exception {
